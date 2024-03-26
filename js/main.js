@@ -3,8 +3,6 @@ const spinnerWrapperEL = document.querySelector('.spinner-wrapper');
 
 window.addEventListener('load', () => {
     spinnerWrapperEL.style.opacity = '0'
-
-
     setTimeout(() => {
         spinnerWrapperEL.style.display = 'none';
     }, 400);
